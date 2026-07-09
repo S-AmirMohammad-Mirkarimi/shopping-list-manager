@@ -1,3 +1,8 @@
+# ===== Project data file =====
+# This file is created automatically when the program saves the list.
+# It is runtime data, so it should not be stored in version control.
+shopping_list.txt
+
 # Compiled class file
 *.class
 
@@ -22,3 +27,26 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# ===== IDE / editor files =====
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# ===== OS files =====
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+desktop.ini
